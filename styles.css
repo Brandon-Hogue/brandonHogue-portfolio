@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+body {
+  background: #0d0d0d;
+  color: #00ffe7;
+  font-family: 'Orbitron', monospace, sans-serif;
+  margin: 40px;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 50px;
+  text-shadow: 0 0 10px #00ffe7, 0 0 20px #00ffe7;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0.2em;
+  text-transform: uppercase;
+}
+
+nav a {
+  color: #00ffe7;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 600;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+nav a:hover {
+  color: #ff007c;
+  text-shadow: 0 0 8px #ff007c, 0 0 15px #ff007c;
+}
+
+section {
+  background: #111;
+  padding: 25px 30px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px #00ffe7aa;
+  border: 1px solid #00ffe7;
+}
+
+h2 {
+  border-bottom: 2px solid #00ffe7;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  padding: 6px 0;
+  border-left: 3px solid #00ffe7;
+  margin-bottom: 8px;
+  transition: border-color 0.3s ease;
+}
+
+ul li:hover {
+  border-color: #ff007c;
+}
+
+p, li {
+  font-size: 1.1rem;
+}
